@@ -59,6 +59,15 @@ html {
     border: 1px solid #3f3f46;
 }
 
+.skill-project {
+    background-color: #27272a; /* cinza escuro */
+    color: #e4e4e7; /* cinza claro */
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-weight: 500;
+    border: 1px solid #3f3f46;
+}
+
 /* Card de Projeto */
 .project-card {
     background-color: #1a1a1a;
