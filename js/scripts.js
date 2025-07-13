@@ -1,19 +1,27 @@
 document.addEventListener('DOMContentLoaded', () => {
-
     const mobileMenuButton = document.getElementById('mobile-menu-button');
     const mobileMenu = document.getElementById('mobile-menu');
     const navLinks = mobileMenu.querySelectorAll('a');
 
-    // Alternar visibilidade do menu mobile
+    let estaAberto = false;
+
     mobileMenuButton.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
+        estaAberto = !estaAberto;
+
+        if (estaAberto) {
+            mobileMenu.classList.remove('max-h-0', 'opacity-0');
+            mobileMenu.classList.add('max-h-[300px]', 'opacity-100');
+        } else {
+            mobileMenu.classList.remove('max-h-[300px]', 'opacity-100');
+            mobileMenu.classList.add('max-h-0', 'opacity-0');
+        }
     });
 
-    // Fechar o menu mobile ao clicar em um link
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden');
+            mobileMenu.classList.remove('max-h-[300px]', 'opacity-100');
+            mobileMenu.classList.add('max-h-0', 'opacity-0');
+            estaAberto = false;
         });
     });
-
 });

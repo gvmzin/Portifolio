@@ -31,7 +31,7 @@
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
             </button>
         </nav>
-        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+        <div id="mobile-menu" class="transition-all duration-500 ease-in-out max-h-0 overflow-hidden md:hidden px-6">
             <a href="#tecnologias" class="block py-2 nav-link">Tecnologias</a>
             <a href="#cursos" class="block py-2 nav-link">Cursos</a>
             <a href="#projetos" class="block py-2 nav-link">Projetos</a>
@@ -40,11 +40,9 @@
     </header>
 
     <main>
-
-        <section id="home" class="relative h-screen flex items-center justify-center text-center overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/80 to-black"></div>
-            <div class="relative z-10 px-4">
-                <img src="img/eu.jpg" alt="Minha Foto" class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-gray-700 shadow-lg accent-glow items-center mx-auto mb-8">
+        <section id="home" class="py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                 <img src="img/eu.jpg" alt="Minha Foto" class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-gray-700 shadow-lg accent-glow items-center mx-auto mb-8">
                 <h1 class="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-tight">
                     Gustavo Morais<br>
                 </h1><br>
@@ -57,13 +55,10 @@
                     <a href="#contato" class="bg-white hover:bg-gray-200 text-black font-bold py-3 px-8 rounded-lg transition duration-300 text-lg transform hover:scale-105">
                         Vamos Conversar
                     </a>
-                </div>
-                
+                 </div>
             </div>
-            
         </section>
         <hr class="border-gray-600">
-
         <section id="tecnologias" class="py-20 md:py-32">
             <div class="container mx-auto px-6 text-center">
                  <h2 class="text-4xl md:text-5xl font-bold">Tecnologias e Habilidades</h2>
