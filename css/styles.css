@@ -128,7 +128,12 @@ html {
     
     transform: scale(1.03);
 }
-
+#menu-icon {
+  transition: transform 1.3s;
+}
+#mobile-menu-button:active #menu-icon {
+  transform: scale(0.95);
+}
 
 /* Scrollbar Customizada */
 ::-webkit-scrollbar {
