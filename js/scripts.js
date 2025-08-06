@@ -30,3 +30,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+const swiper = new Swiper(".mySwiper", {
+  loop: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  spaceBetween: 30,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
