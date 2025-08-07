@@ -37,7 +37,7 @@ const swiper = new Swiper(".mySwiper", {
   slidesPerView: 'auto',
   spaceBetween: 30,
   autoplay: {
-    delay: 3000,
+    delay: 5000,
     disableOnInteraction: false,
   },
   navigation: {
