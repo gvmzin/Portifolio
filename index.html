@@ -21,8 +21,8 @@
             <a href="#home" class="text-2xl font-bold tracking-wider">Dev<span class="text-gray-400">Gustavo</span></a>
             <div class="hidden md:flex items-center space-x-8">
                 <a href="#tecnologias" class="nav-link">Tecnologias</a>
-                <a href="#cursos" class="nav-link">Cursos</a>
                 <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#cursos" class="nav-link">Cursos</a>
                 <a href="#contato" class="nav-link">Contato</a>
             </div>
             <a href="#projetos" class="hidden md:block bg-white hover:bg-white font-bold py-2 px-5 rounded-lg transition-colors color duration-300 text-black transform hover:scale-105">
@@ -37,8 +37,8 @@
         </nav>
         <div id="mobile-menu" class="transition-all duration-500 ease-in-out max-h-0 overflow-hidden md:hidden px-6">
             <a href="#tecnologias" class="block py-2 nav-link">Tecnologias</a>
-            <a href="#cursos" class="block py-2 nav-link">Cursos</a>
             <a href="#projetos" class="block py-2 nav-link">Projetos</a>
+            <a href="#cursos" class="block py-2 nav-link">Cursos</a>
             <a href="#contato" class="block py-2 nav-link">Contato</a>
         </div>
     </header>
@@ -53,7 +53,7 @@
                 <h1><span class="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-gray-500" style="font-size: xx-large;">Desenvolvedor FullStack</span></h1>
                 
                 <p class="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
-                            Sou uma pessoa apaixonada por tecnologia, assim acabei escolhendo a área de programação pro meu futuro. Apesar de sempre ter gostado de backend, sempre me incomodei em trabalhar com algo que eu não possua conhecimento completo, com isso optei por seguir minha caminhada no fullstack.
+                            Sou uma pessoa apaixonada por tecnologia, assim acabei escolhendo a área de programação pro meu futuro. Apesar de gostar mais de backend, sempre me incomodei em trabalhar com algo que eu não possua conhecimento completo, com isso optei por seguir minha caminhada sendo fullstack.
                         </p>
                 <div class="mt-8">
                     <a href="#contato" class="bg-white hover:bg-gray-200 text-black font-bold py-3 px-8 rounded-lg transition duration-300 text-lg transform hover:scale-105">
@@ -67,26 +67,107 @@
             <div class="container mx-auto px-6 text-center">
                  <h2 class="text-4xl md:text-5xl font-bold">Tecnologias e Habilidades</h2>
                  <p class="text-gray-400 mt-2">As ferramentas que uso para transformar ideias em realidade.</p>
-                 <div class="mt-8 flex justify-center flex-wrap gap-4 max-w-[600px] mx-auto">
-                     <span class="skill-badge">React</span>
+                 <div class="mt-8 flex justify-center flex-wrap gap-4 max-w-[700px] mx-auto">
                      <span class="skill-badge">C#</span>
                      <span class="skill-badge">ASP.NET Core</span>
-                     <span class="skill-badge">EntityFramework</span>
-                     <span class="skill-badge">TypeScript</span>
-                     <span class="skill-badge">Node.js</span>
                      <span class="skill-badge">MySQL</span>
-                     <span class="skill-badge">Figma</span>
-                     <span class="skill-badge">Postman</span>
-                     <span class="skill-badge">Bootstrap</span>
-                     <span class="skill-badge">Git e Github</span>
-                     <span class="skill-badge">POO</span>
+                     <span class="skill-badge">EntityFramework</span>
                      <span class="skill-badge">APIRest</span>
                      <span class="skill-badge">HTTP</span>
                      <span class="skill-badge">CRUD</span>
+                     <span class="skill-badge">Swagger</span>
+                     <span class="skill-badge">Postman</span>
+                     <span class="skill-badge">JWT</span>
+                     <span class="skill-badge">Minimal API</span>
+                     <span class="skill-badge">React</span>
+                     <span class="skill-badge">TypeScript</span>
+                     <span class="skill-badge">Bootstrap</span>
+                     <span class="skill-badge">Git e Github</span>
+                     <span class="skill-badge">POO</span>
+                     <span class="skill-badge">Figma</span>
+                     
                  </div>
             </div>
         </section>
-        
+        <hr class="border-gray-600">
+        <section id="projetos" class="py-20 md:py-32">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold">Meus Projetos</h2>
+                    <p class="text-gray-400 mt-2">Uma seleção de trabalhos que demonstram minhas habilidades.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3 class="text-xl font-bold">Gerenciador de Tarefas</h3>
+                            <p class="text-gray-400 mt-1">Aplicação web completa, onde o frontend é construído com React para a interface do usuário, utilizando Bootstrap e Reactstrap para componentes visuais e http-proxy-middleware para a comunicação em desenvolvimento, enquanto o backend é desenvolvido com ASP.NET Core em C# para a API, empregando Entity Framework Core para o acesso a dados.</p>
+                            <a href="https://github.com/gvmzin/GerenciadorTarefas" target="_blank" class="project-link">Ver Projeto →</a>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <span class="skill-project">ASP.NET Core</span>
+                            <span class="skill-project">React</span>
+                            <span class="skill-project">C#</span>
+                            <span class="skill-project">EntityFramework</span>
+                            <span class="skill-project">Bootstrap</span>
+                            <span class="skill-project">Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3 class="text-xl font-bold">Minimal API em .NET 8</h3>
+                            <p class="text-gray-400 mt-1">API RESTful desenvolvida com .NET 8 e o padrão Minimal API, focada em uma arquitetura limpa e escalável. O projeto implementa autenticação com JWT, utiliza Entity Framework Core para acesso a dados e segue princípios de separação de responsabilidades para garantir um código organizado e de fácil manutenção.</p>
+                            <a href="https://github.com/gvmzin/MinimalAPI" target="_blank" class="project-link">Ver Projeto →</a>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <span class="skill-project">.NET 8</span>
+                                <span class="skill-project">ASP.NET Core</span>
+                                <span class="skill-project">Minimal API</span>
+                                <span class="skill-project">C#</span>
+                                <span class="skill-project">EntityFramework</span>
+                                <span class="skill-project">JWT</span>
+                                <span class="skill-project">Swagger</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/efestialogo.png" alt="EfestIA" class="project-image">
+                        <div class="project-info">
+                            <h3 class="text-xl font-bold">EfestIA</h3>
+                            <p class="text-gray-400 mt-1">Plataforma de pentesting com IA integrada. (projeto atualmente em construção).</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/sitexand.png" alt="MostruarioBeats" class="project-image">
+                        <div class="project-info">
+                            <h3 class="text-xl font-bold">Mostruário de Beats</h3>
+                            <p class="text-gray-400 mt-1">Site para biblioteca de beats para um produtor musical.</p>
+                            <a href="https://gvmzin.github.io/SiteXand/" target="_blank" class="project-link">Ver Projeto →</a>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <span class="skill-project">JavaScript</span>
+                                <span class="skill-project">HTML</span>
+                                <span class="skill-project">CSS</span>
+                                <span class="skill-project">Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/image.png" alt="QRCodePro" class="project-image">
+                        <div class="project-info">
+                            <h3 class="text-xl font-bold">QRCodePro</h3>
+                            <p class="text-gray-400 mt-1">Um simples gerador de QRcode com sistema de login(porém em localstorage).</p>
+                            <a href="https://gvmzin.github.io/qrcodejsbasic/index.html" target="_blank" class="project-link">Ver Projeto →</a>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <span class="skill-project">JavaScript</span>
+                                <span class="skill-project">HTML</span>
+                                <span class="skill-project">CSS</span>
+                                <span class="skill-project">Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <hr class="border-gray-600">
         <section id="cursos" class="py-20 md:py-32">
             <div class="container mx-auto px-6">
@@ -110,7 +191,7 @@
                 </div>
             </div>
         </section>
-          <section class="certificados">
+        <section class="certificados">
                 <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -125,76 +206,14 @@
                     <div class="swiper-slide">
                     <img src="img/Certificados/CertificadoPOOCSharp.jpg" alt="CertificadoPOOCSharp" />
                     </div>
+                    <div class="swiper-slide">
+                    <img src="img/Certificados/CertificadoMinimalAPICSharp.jpg" alt="CertificadoMinimalAPICSharpa" />
+                    </div>
                 </div>
 
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
                 </div>
-            </section>
-        <hr class="border-gray-600">
-        <section id="projetos" class="py-20 md:py-32">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-16">
-                    <h2 class="text-4xl md:text-5xl font-bold">Meus Projetos</h2>
-                    <p class="text-gray-400 mt-2">Uma seleção de trabalhos que demonstram minhas habilidades.</p>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    
-                    <div class="project-card">
-                        <img src="img/image.png" alt="Projeto 1" class="project-image">
-                        <div class="project-info">
-                            <h3 class="text-xl font-bold">QRCodePro</h3>
-                            <p class="text-gray-400 mt-1">Um simples gerador de QRcode com sistema de login(porém em localstorage).</p>
-                            <a href="https://gvmzin.github.io/qrcodejsbasic/index.html" target="_blank" class="project-link">Ver Projeto →</a>
-                            <div class="flex flex-wrap gap-2 mt-2">
-                                <span class="skill-project">JavaScript</span>
-                                <span class="skill-project">HTML</span>
-                                <span class="skill-project">CSS</span>
-                                <span class="skill-project">Tailwind</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <img src="img/efestialogo.png" alt="Projeto 2" class="project-image">
-                        <div class="project-info">
-                            <h3 class="text-xl font-bold">EfestIA</h3>
-                            <p class="text-gray-400 mt-1">Plataforma de pentesting com IA integrada. (projeto atualmente em construção).</p>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <img src="img/sitexand.png" alt="Projeto 3" class="project-image">
-                        <div class="project-info">
-                            <h3 class="text-xl font-bold">Mostruário de Beats</h3>
-                            <p class="text-gray-400 mt-1">Site para biblioteca de beats para um produtor musical.</p>
-                            <a href="https://gvmzin.github.io/SiteXand/" target="_blank" class="project-link">Ver Projeto →</a>
-                            <div class="flex flex-wrap gap-2 mt-2">
-                                <span class="skill-project">JavaScript</span>
-                                <span class="skill-project">HTML</span>
-                                <span class="skill-project">CSS</span>
-                                <span class="skill-project">Tailwind</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-info">
-                            <h3 class="text-xl font-bold">Gerenciador de Tarefas</h3>
-                            <p class="text-gray-400 mt-1">Aplicação web completa, onde o frontend é construído com React para a interface do usuário, utilizando Bootstrap e Reactstrap para componentes visuais e http-proxy-middleware para a comunicação em desenvolvimento, enquanto o backend é desenvolvido com ASP.NET Core em C# para a API, empregando Entity Framework Core para o acesso a dados.</p>
-                            <a href="https://github.com/gvmzin/GerenciadorTarefas" target="_blank" class="project-link">Ver Projeto →</a>
-                        <div class="flex flex-wrap gap-2 mt-2">
-                            <span class="skill-project">ASP.NET Core</span>
-                            <span class="skill-project">React</span>
-                            <span class="skill-project">C#</span>
-                            <span class="skill-project">EntityFramework</span>
-                            <span class="skill-project">Bootstrap</span>
-                            <span class="skill-project">Node.js</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
         <hr class="border-gray-600">
         <section id="contato" class="py-20 md:py-32">
